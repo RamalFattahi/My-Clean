@@ -1,0 +1,138 @@
+.header {
+  padding: 3.4rem 0;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  margin-bottom: 13rem;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 16.5rem;
+  height: 10rem;
+}
+
+.header .header__right select {
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header .header__right select option {
+  color: black;
+}
+
+.header .header__right {
+  display: flex;
+  align-items: center;
+  gap: 7.2rem;
+  margin-right: 1rem;
+}
+
+footer {
+  padding-top: 11.2rem;
+  color: black;
+}
+
+footer .logo {
+  max-width: 25%;
+  height: 9.2rem;
+  margin: 3rem;
+}
+
+.footer__head {
+  padding-bottom: 17.8rem;
+}
+.footer__right {
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+}
+
+footer .footer__list {
+  padding: 3rem;
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .footer__lists {
+  padding: 3rem;
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.footer__list ul li i {
+  color: #fff;
+  margin-right: 2rem;
+}
+
+.footer__lists ul li i {
+  color: #fff;
+  margin-right: 2rem;
+}
+
+.footer__list ul li a {
+  cursor: pointer;
+}
+
+.author {
+  text-align: center;
+  padding: 5px 0px;
+  background-color: #fdce00;
+}
+
+.author p {
+  font-size: 15px;
+  line-height: 2.1;
+  font-weight: 400;
+}
+
+.author p a {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  header .header__right select {
+    display: none;
+  }
+
+  .header .logo {
+    width: 10rem;
+    height: 5rem;
+    margin-left: 1.5rem;
+  }
+
+  .footer__right {
+    display: block;
+  }
+
+  footer .footer__box .footer__head .footer__right .logo img {
+    width: 130px;
+    height: 79px;
+  }
+
+  footer .footer__list {
+    margin-top: -40px;
+  }
+
+  footer .footer__lists ul li {
+    display: flex;
+    gap: 10px;
+  }
+}

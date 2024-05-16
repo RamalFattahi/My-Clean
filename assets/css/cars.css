@@ -1,0 +1,94 @@
+/* --Head-Start-- */
+#head .head__text {
+  display: flex;
+  margin-bottom: 3rem;
+  align-items: center;
+  gap: 3rem;
+}
+
+#head .head__text a {
+  font-size: 1.6rem;
+}
+
+#head .head__text a span {
+  color: var(--color-yellow);
+}
+
+#head .head__img {
+  height: 33.8rem;
+  position: relative;
+  filter: grayscale(100%);
+}
+
+#head .head__img img {
+  object-position: 50% 50%;
+}
+/* --Head-End-- l*/
+.allcars__title {
+  position: relative;
+  margin-bottom: 10rem;
+  top: -7rem;
+}
+
+#allcars .cars__card-list {
+  display: grid;
+  grid-auto-rows: 48rem;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+}
+
+#allcars .cars__card-list .cars__card .cars__card-img {
+  height: 24.6rem;
+}
+
+#allcars .cars__card-list .cars__card .cars__card-text {
+  max-width: 27rem;
+}
+
+#allcars .cars__card-list .cars__card .cars__card-text h3 {
+  margin-top: 3rem;
+  font-size: 3.2rem;
+  padding-bottom: 4rem;
+}
+
+#allcars .cars__card-list .cars__card .cars__card-text span {
+  font-size: 2.4rem;
+}
+
+#allcars .cars__card-list .cars__card .cars__card-text p {
+  font-size: 16px;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+  .head .head__text {
+    padding: 0 2rem;
+  }
+  .head .head__text a:nth-child(1) {
+    display: none;
+  }
+
+  .head .head__img {
+    height: auto;
+  }
+
+  #allcars .allcars__title h2 {
+    padding: 0 2rem;
+    margin-top: 4rem;
+    font-size: 4.4rem;
+  }
+
+  #allcars .cars__card-list {
+    grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+  }
+
+  #allcars .cars__card-list .cars__card .cars__card-text h3 {
+    margin-top: 2.5rem;
+    font-size: 2.2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  #allcars .cars__card-list .cars__card .cars__card-text p {
+    max-width: 20rem;
+  }
+}

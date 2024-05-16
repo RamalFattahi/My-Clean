@@ -1,0 +1,699 @@
+/* --Home-Start-- */
+.header {
+  position: absolute;
+  width: 100%;
+}
+#home > .container {
+  display: flex;
+  position: relative;
+}
+
+#home .home__left {
+  position: relative;
+  z-index: 2;
+  margin-top: 23.5rem;
+}
+
+#home .home__left h1 {
+  max-width: 74rem;
+  padding-bottom: 3rem;
+}
+
+#home .home__left p {
+  font-size: 16px;
+  max-width: 37rem;
+}
+
+#home .home__left .home__button {
+  display: flex;
+  align-items: center;
+  margin-top: 4.4rem;
+  padding-bottom: 22.6rem;
+}
+
+#home .home__left .home__button a {
+  font-weight: 500;
+  font-size: 3.2rem;
+}
+
+#home .home__left .home__button div {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--color-yellow);
+  margin-left: 4rem;
+  text-align: center;
+}
+
+#home .home__left .home__button div i {
+  color: black;
+  font-size: 2.5rem;
+  margin: 28%;
+}
+
+#home .home__right {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  max-width: 50%;
+  filter: grayscale(1) brightness(0.5);
+}
+
+#home .home__right .home__right-op {
+  position: absolute;
+  max-width: 100%;
+  height: 100%;
+}
+/* --Home-End-- */
+
+/* --Long-Start-- */
+#long {
+  padding: 3.3rem 0;
+  background-color: var(--color-yellow);
+}
+
+#long .long__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#long .long__header .long__box {
+  text-align: center;
+  color: black;
+}
+
+#long .long__header .long__box h2 {
+  font-size: 7.3rem;
+}
+
+#long .long__header .long__box h3 {
+  font-size: 3.6rem;
+}
+
+/* --Long-End-- */
+
+/* --About-Start-- */
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 16rem;
+}
+
+#about .about__left .about__content {
+  margin-left: 10rem;
+}
+
+#about .about__left h2 {
+  color: var(--color-yellow);
+  padding-bottom: 3rem;
+}
+
+#about .about__left .about__content p {
+  max-width: 47rem;
+  padding-bottom: 1.8rem;
+  font-size: 16px;
+}
+
+#about .about__left a {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+#about .about__left a i {
+  margin-left: 3.2rem;
+  font-size: 2.5 rem;
+  transform: rotate(45deg);
+}
+
+#about .about__right {
+  flex: 1;
+  flex-basis: 56rem;
+  max-width: 58rem;
+}
+
+/* --About-End-- */
+
+/* --Services-Start-- */
+#services {
+  padding-top: 10rem;
+}
+
+#services .services__title {
+  text-align: center;
+}
+
+#services .services__title h2 {
+  color: var(--color-yellow);
+}
+
+#services .services__head {
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+  gap: 6.5rem;
+}
+
+#services .services__head .services__box {
+  padding-top: 11rem;
+}
+
+#services .services__head .services__box .services__img {
+  width: 30rem;
+  height: 32rem;
+  filter: grayscale(0.1) brightness(0.4);
+}
+#services .services__head .services__box .services__img img {
+  width: 100%;
+  height: 100%;
+}
+
+#services .services__head .services__box .services__img div h3 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-top: 20px;
+  margin-top: 3.2rem;
+  color: #b3b3b3;
+}
+
+#services .services__head .services__boxs {
+  margin-top: 6rem;
+  position: relative;
+}
+
+#services .services__head .services__imgs {
+  width: 37rem;
+  height: 39rem;
+}
+#services .services__head .services__imgs img {
+  width: 100%;
+  height: 100%;
+}
+
+#services .services__head .services__boxs .services__text {
+  position: absolute;
+  bottom: 0%;
+  margin-bottom: 7rem;
+  margin-left: 1.5rem;
+}
+
+#services .services__head .services__boxs .services__text h3 {
+  font-size: 3.2rem;
+}
+
+#services .services__head .services__boxs .services__text p {
+  margin: 1.5rem 0;
+  font-size: 16px;
+}
+
+#services .services__head .services__boxs .services__text .services__button {
+  display: flex;
+  align-items: center;
+}
+
+#services .services__head .services__boxs .services__text .services__button h5 {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+#services .services__head .services__boxs .services__text .services__button i {
+  margin-left: 3.2rem;
+  font-size: 2.5rem;
+  transform: rotate(45deg);
+}
+
+#services .services__head .services__click {
+  transform: rotate(180deg);
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+#services .services__head .services__click i {
+  padding: 15px;
+  background-color: var(--color-yellow);
+  border-radius: 50%;
+}
+
+#services .services__clicks {
+  transform: translate(45deg);
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+#services .services__head .services__clicks i {
+  padding: 15px;
+  background-color: var(--color-yellow);
+  border-radius: 50%;
+}
+/* --Services-End-- */
+
+/* --Products-Start-- */
+#products {
+  padding-top: 30rem;
+}
+
+#products .products__title h2 {
+  color: var(--color-yellow);
+}
+
+#products .products__head {
+  display: flex;
+  gap: 3rem;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+#products .products__head .products__box {
+  padding-top: 2rem;
+}
+
+#products .products__head .products__box .products__img img {
+  width: 27rem;
+  height: 24.6rem;
+}
+
+#products .products__head .products__box .products__text h3 {
+  font-size: 3.2rem;
+  padding-top: 3rem;
+}
+
+#products .products__head .products__box .products__text h4 {
+  font-size: 2.4rem;
+  padding-top: 4rem;
+}
+
+#products .products__head .products__box .products__text p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+#products .products__button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#products .products__button a {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+#products .products__button i {
+  transform: rotate(45deg);
+  font-size: 2.5rem;
+}
+/* --Products-End-- */
+
+/* --Cars-Start-- */
+#cars {
+  padding-top: 16.8rem;
+}
+
+#cars .cars__title {
+  text-align: center;
+}
+
+#cars .cars__title h2 {
+  color: var(--color-yellow);
+  font-size: 10rem;
+}
+
+#cars .cars__button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#cars .cars__button h5 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-right: 30px;
+}
+#cars .cars__button i {
+  transform: rotate(45deg);
+  font-size: 2.5rem;
+}
+
+#cars .cars__head {
+  display: flex;
+  gap: 3rem;
+  overflow-x: scroll;
+}
+
+#cars .cars__head .cars__box {
+  padding-top: 2rem;
+}
+
+#cars .cars__head .cars__box .cars__img img {
+  width: 37rem;
+  height: 26.5rem;
+}
+
+#cars .cars__head .cars__box .cars__text h3 {
+  font-size: 4.5rem;
+  padding-top: 4rem;
+}
+
+#cars .cars__head .cars__box .cars__text h4 {
+  font-size: 2.4rem;
+  margin-top: 1.5rem;
+}
+
+#cars .cars__head .cars__box .cars__text p {
+  max-width: 27rem;
+  font-size: 16px;
+  padding-top: 2rem;
+}
+/* --Cars-End-- */
+
+/* --Blog-Start-- */
+#blog {
+  background-color: var(--color-yellow);
+  margin-top: 17rem;
+  padding-bottom: 85px;
+  color: black;
+}
+
+#blog .blog__title {
+  padding-top: 5rem;
+}
+
+#blog .blog__head {
+  display: flex;
+  gap: 70px;
+  padding-top: 3rem;
+  flex-wrap: wrap;
+}
+
+#blog .blog__head .blog__left {
+  margin-left: 2rem;
+  width: 40%;
+}
+
+#blog .blog__head .blog__left .blog__img {
+  height: 286px;
+}
+
+#blog .blog__head .blog__right {
+  width: 47rem;
+  padding-top: 1rem;
+}
+
+#blog .blog__head .blog__right h3 {
+  font-size: 4.5rem;
+  line-height: 1.1;
+}
+
+#blog .blog__head .blog__right p {
+  font-size: 16px;
+  padding-top: 2rem;
+}
+
+#blog .blog__head .blog__right .blog__button {
+  display: flex;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+#blog .blog__head .blog__right .blog__button h5 {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+#blog .blog__head .blog__right .blog__button i {
+  margin-left: 3.2rem;
+  transform: rotate(45deg);
+  font-size: 2.5rem;
+}
+
+#blog .blog__head .blog__icon {
+  display: flex;
+  align-items: center;
+}
+
+#blog .blog__head .blog__icon i {
+  font-size: 23px;
+}
+
+/* --Blog-End-- */
+
+/* --Contact-Start-- */
+#contact {
+  padding-top: 16rem;
+  padding-bottom: 4rem;
+}
+
+#contact .contact__title {
+  text-align: center;
+}
+
+#contact .contact__title h2 {
+  color: var(--color-yellow);
+}
+
+#contact .contact__head {
+  padding-top: 4.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20rem
+}
+
+#contact .contact__head .contact__box .contact__text {
+  display: flex;
+  padding-top: 1.5rem;
+  
+}
+
+#contact .contact__head .contact__box .contact__text a {
+  display: block;
+}
+
+#contact .contact__head .contact__box .contact__text i {
+  color: var(--color-yellow);
+  margin-right: 5rem;
+}
+
+#contact .contact__head .contact__box .contact__text p {
+  width: 257px;
+  font-size: 16px;
+  margin-top: 8px ;
+}
+
+#contact .contact__head .contact__box .contact__text span a {
+  line-height: 2;
+}
+
+#contact .contact__head .contact__box i {
+  color: var(--color-yellow);
+  margin-right: 40px;
+  margin-top: 12px;
+}
+
+#map {
+  margin-bottom: -70px;
+}
+
+/* --Contact-End-- */
+
+/* --Responsive-Start-- */
+
+@media screen and (max-width: 768px) {
+  #home .home__left h1 {
+    font-size: 4.4rem;
+  }
+
+  #home .home__left {
+    margin-left: 2rem;
+  }
+
+  #home .home__left .home__button div {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  #home .home__left .home__button a {
+    font-size: 2.4rem;
+  }
+
+  #home .home__left .home__button div i {
+    font-size: 1.9rem;
+  }
+
+  #home .home__right {
+    max-width: 55%;
+  }
+
+  #long .long__header .long__box h2 {
+    font-size: 3rem;
+  }
+
+  #long .long__header .long__box h3 {
+    font-size: 16px;
+  }
+
+  #about .about__left h2 {
+    font-size: 5rem;
+    margin-left: 20px;
+  }
+
+  #about .about__left .about__content {
+    margin-left: 20px;
+    margin-bottom: 4.6rem;
+  }
+
+  #about .about__left .about__content a {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  #about .about__left .about__content a i {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+  }
+  #services .services__head .services__boxs .services__text h3 {
+    font-size: 2.2rem;
+  }
+  #services .services__boxs {
+    margin-left: 3rem;
+  }
+  #services
+    .services__head
+    .services__boxs
+    .services__text
+    .services__button
+    h5 {
+    font-size: 18px;
+  }
+
+  #services
+    .services__head
+    .services__boxs
+    .services__text
+    .services__button
+    i {
+    font-size: 1.8rem;
+  }
+
+  #services .services__title h2 {
+    font-size: 5rem;
+  }
+
+  #products{
+    margin-left: 2rem;
+  }
+
+  #products .products__title h2 {
+    font-size: 5rem;
+  }
+
+  #products .products__button {
+    display: none;
+  }
+
+  #products .products__head {
+    gap: 2rem;
+
+  }
+
+  #products .products__head .products__box .products__img img {
+    width: 20rem;
+    height: 18.2rem;
+  }
+
+  #products .products__head .products__box .products__text h4 {
+    font-size: 2rem;
+  }
+
+  #products .products__head .products__box .products__text h3 {
+    font-size: 2.2rem;
+  }
+
+  #cars {
+    margin-left: 2rem;
+  }
+  
+  #cars .cars__title h2 {
+    font-size: 5rem;
+    margin-right: 8rem;
+  }
+
+  #cars .cars__button {
+    display: none;
+  }
+
+  #cars .cars__head {
+    gap: 2rem;
+  }
+
+  #cars .cars__head .cars__box .cars__img img {
+    width: 20rem;
+    height: 13rem;
+  }
+
+  #cars .cars__head .cars__box .cars__text h3{
+    font-size: 2.2rem;
+  }
+
+  #cars .cars__head .cars__box .cars__text h4{
+    font-size: 2rem;
+  }
+
+  #blog .blog__title h2{
+    font-size: 5rem;
+    margin-left: 2rem;
+  }
+
+  #blog .blog__head .blog__icon {
+    display: none;
+  }
+  
+  #blog .blog__head .blog__left {
+    width: 90%; 
+  }
+
+  #blog .blog__head .blog__left .blog__img {
+    height: 198px;
+  }
+
+  #blog .blog__head .blog__right {
+    margin-left: 2rem;
+  }
+
+  #blog .blog__head .blog__right h3 {
+    font-size: 2.2rem;
+  }
+
+  #blog .blog__head .blog__right .blog__button h5 {
+    font-size: 2rem;
+  }
+
+  #blog .blog__head .blog__right .blog__button i {
+    font-size: 18px;
+  }
+  #contact {
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  #contact .contact__title h2 {
+    font-size: 5rem;
+    text-align: start;
+  }
+
+  #contact .contact__head .contact__box .contact__text {
+    display: flex;
+    margin: 10px 0;
+  }
+
+  #contact .contact__head {
+    gap: 4rem;
+  }
+  #contact .contact__head .contact__box .contact__text i{
+    margin-right: 1rem;
+  }
+}
